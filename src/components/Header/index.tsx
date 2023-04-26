@@ -30,7 +30,7 @@ const urlMapping: Record<string, string> = {
 export const Header = () => {
   const { t } = useTranslation();
 
-  const features = t("header","features");
+  const features = t("header", "features");
 
   return (
     <header>

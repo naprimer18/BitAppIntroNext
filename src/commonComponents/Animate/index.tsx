@@ -40,7 +40,7 @@ export const Animate: FC<IAnimate> = ({
     if (!onScreen && animationStatus === ANIMATION_STATUS.STARTED) {
       setAnimationStatus(ANIMATION_STATUS.FINISHED);
     }
-  }, [onScreen]);
+  }, [animationStatus, onScreen]);
 
   const handleAnimationEnd = () =>
     setAnimationStatus(ANIMATION_STATUS.FINISHED);
