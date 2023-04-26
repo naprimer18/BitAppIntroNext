@@ -1,0 +1,65 @@
+@mixin large {
+  @media only screen and (max-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media only screen and (max-width: 992px) {
+    @content;
+  }
+}
+
+@mixin tabletSmall {
+  @media only screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media only screen and (max-width: 480px) {
+    @content;
+  }
+}
+
+@mixin container {
+  max-width: 1110px;
+  margin: 0 auto;
+
+  @include large {
+    max-width: 930px;
+  }
+
+  @include tablet {
+    max-width: 690px;
+  }
+
+  @include tabletSmall {
+    max-width: Min(510px, 90vw);
+  }
+
+  @include mobile {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+}
+
+@mixin subHeader {
+  font-size: 40px;
+  line-height: 54px;
+
+  @include large {
+    font-size: 30px;
+    line-height: 44px;
+  }
+}
+
+@mixin card {
+  background: linear-gradient(
+    101.66deg,
+    #1f2234 0%,
+    rgba(31, 34, 52, 0.41) 100.52%
+  );
+  border-radius: 10px;
+  padding: 40px 40px;
+}

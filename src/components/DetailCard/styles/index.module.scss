@@ -1,0 +1,70 @@
+@import "../../../commonStyles/main.module.scss";
+
+.detailCard {
+  @include card;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+  &.swapOrder {
+    .description {
+      order: 1;
+    }
+
+    .picture {
+      order: 0;
+    }
+  }
+
+  .description {
+    flex: 1 0;
+
+    h2 {
+      @include subHeader;
+      margin: 20px 0px;
+    }
+
+    .accent {
+      font-size: 30px;
+      display: block;
+      color: #006bff;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 24px;
+      color: #b9bcce;
+      display: block;
+      margin-bottom: 30px;
+    }
+  }
+
+  .picture {
+    flex: 1 0;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+}
+
+@include tablet {
+  .detailCard {
+    flex-direction: column-reverse;
+
+    h2 {
+      @include subHeader;
+      margin: 14px 0px;
+    }
+
+    &.swapOrder {
+      flex-direction: column;
+    }
+
+    .description * {
+      text-align: center;
+    }
+  }
+}

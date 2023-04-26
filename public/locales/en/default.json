@@ -1,0 +1,123 @@
+{
+  "common": {
+    "buttonLabel": "Try"
+  },
+  "header": {
+    "title": "<span>Cryptocurrency</span> trading bot",
+    "features": [
+      {
+        "key": "strategies",
+        "description": "Ready-made strategies"
+      },
+      {
+        "key": "analytics",
+        "description": "Portfolio analytics"
+      },
+      {
+        "key": "markets",
+        "description": "Work with all exchanges"
+      }
+    ]
+  },
+  "mainContent": {
+    "title": "Return on strategies",
+    "strategies": [
+      {
+        "name": "DCA",
+        "coin": "USD / RUB",
+        "investments": {
+          "key": "INVESTMENTS",
+          "value": "$ 94 943"
+        },
+        "profit": {
+          "key": "PROFIT",
+          "value": "$ 94 943"
+        },
+        "total": {
+          "key": "TOTAL",
+          "value": "$ 94 943"
+        },
+        "term": {
+          "key": "TERM",
+          "value": "90 days"
+        },
+        "growth": "34.49%"
+      },
+      {
+        "name": "DCA",
+        "coin": "USD / RUB",
+        "investments": {
+          "key": "INVESTMENTS",
+          "value": "$ 94 943"
+        },
+        "profit": {
+          "key": "PROFIT",
+          "value": "$ 94 943"
+        },
+        "total": {
+          "key": "TOTAL",
+          "value": "$ 94 943"
+        },
+        "term": {
+          "key": "TERM",
+          "value": "90 days"
+        },
+        "growth": "34.49%"
+      },
+      {
+        "name": "DCA",
+        "coin": "USD / RUB",
+        "investments": {
+          "key": "INVESTMENTS",
+          "value": "$ 94 943"
+        },
+        "profit": {
+          "key": "PROFIT",
+          "value": "$ 94 943"
+        },
+        "total": {
+          "key": "TOTAL",
+          "value": "$ 94 943"
+        },
+        "term": {
+          "key": "TERM",
+          "value": "90 days"
+        },
+        "growth": "34.49%"
+      }
+    ],
+    "details": [
+      {
+        "key": "dashboard",
+        "title": "Dashboard",
+        "subtitle": "Information about all your assets",
+        "description": "All your assets and activity on one screen, customizable widgets, profitability graph and more. From all exchanges at once."
+      },
+      {
+        "key": "portfolio",
+        "title": "Portfolio",
+        "subtitle": "Keep track of your assets in real time",
+        "description": "History of operations, total returns, portfolio allocation, information about assets on exchanges."
+      },
+      {
+        "key": "strategies",
+        "title": "Strategies",
+        "subtitle": "Choose a strategy and the bot will start working",
+        "description": "Many strategies to choose from, deep customization and analytics on already launched strategies."
+      }
+    ],
+    "payments": [
+      {
+        "price": "Free",
+        "descriptionList": ["One running strategy", "Only DCA strategy"]
+      },
+      {
+        "price": "$10<span>/ Month</span>",
+        "descriptionList": [
+          "Several strategies at once",
+          "All available strategies"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+@import "../../../commonStyles/main.module.scss";
+
+.footer {
+  padding: 20px 0px 60px;
+
+  .container {
+    @include container;
+    text-align: center;
+  }
+}
