@@ -2,8 +2,6 @@
 import React, { FC, useEffect, useRef, useState } from "react";
 import { useElementOnScreen } from "../../utils/useElementOnScreen";
 
-// animations
-// import "./animations.scss";
 
 // models, constants
 import { IAnimate } from "./models";
@@ -53,7 +51,7 @@ export const Animate: FC<IAnimate> = ({
           animationDelay: `${delay}s`,
         }
       : {};
-
+  
   return (
     <div
       ref={ref}
