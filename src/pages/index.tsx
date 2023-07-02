@@ -11,7 +11,7 @@ export default function Home() {
         name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1"
         // @ts-ignore
-        keywords="bitapp, Криптовалюты, Биткоин, Кошелек, Блокчейн, Технологии, Инвестиции, Финансы, Безопасность, Трейдинг, Криптобиржа,
+        keywords="LetsBulls letsbulls, Криптовалюты, Биткоин, Кошелек, Блокчейн, Технологии, Инвестиции, Финансы, Безопасность, Трейдинг, Криптобиржа,
         Cryptocurrencies, Bitcoin, Wallet, Blockchain, Technology, Investments, Finance, Security, Trading, Cryptocurrency exchange
         Digital assets, Portfolio management, Payment processing, Decentralization, Peer-to-peer, Smart contracts, Tokenization, Mining
         Crypto regulation, User experience, Mobile app, Web development, Customer support, KYC/AML compliance, Cryptocurrency news, Cryptocurrency market trends"
@@ -29,7 +29,7 @@ export default function Home() {
       sizes="16x16"
       href={favicon.src}
     />
-      <title>Bitapp.Money</title>
+      <title>LetsBulls</title>
       </Head>
       <Header />
       <MainContent />

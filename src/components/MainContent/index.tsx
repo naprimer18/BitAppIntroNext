@@ -37,7 +37,7 @@ export const MainContent: React.FC = () => {
           return (
             <DetailCard
               key={key}
-              link="https://letsbulls.com/login"
+              link="https://app.letsbulls.com"
               pictureUrl={urlMapping[item.key]}
               description={item.description}
               header={item.title}
@@ -54,7 +54,7 @@ export const MainContent: React.FC = () => {
                 key={idx}
                 price={item.price}
                 descriptionList={item.descriptionList}
-                link={"https://letsbulls.com/login"}
+                link={"https://app.letsbulls.com"}
               />
             );
           })}
