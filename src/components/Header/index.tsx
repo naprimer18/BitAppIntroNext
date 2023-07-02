@@ -69,7 +69,7 @@ export const Header = () => {
             </div>
 
             <Animate animationName="fadeInDown" delay={1.3}>
-              <Button title={t("common", "buttonLabel")} link="http://70.34.248.171/login" />
+              <Button title={t("common", "buttonLabel")} link="http://letsbulls.com/login" />
             </Animate>
           </div>
         </div>
